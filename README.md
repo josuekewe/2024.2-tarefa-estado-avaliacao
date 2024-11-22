@@ -6,6 +6,8 @@
 - **Público alvo**: alunos da disciplina de SO (Sistemas Operacionais) do curso de TADS (Superior em Tecnologia em Análise e Desenvolvimento de Sistemas) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central).
 - disciplina: **SO** Sistemas Operacionais, turma de 2024.2
 - professor: [Leonardo A. Minora](https://github.com/leonardo-minora)
+- Aluno: Josue Kewe da Silva Souza
+- Matricula: 20232014040033
 
 ## Descrição inicial da tarefa
 
@@ -88,8 +90,13 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11	 |ex t1  | su 2       |	su 1	     | ex linha 2	| -          |
+| 12	 |--	   | su 2       |	su 1	     | ex linha 3	| -          |
+| 13	 |ex t3  | su 2       |	su 1	     | ex linha 4	| -          |
+| 14	 |--	   | su 2       |	su 1	     | fi	        | -          |
+| 15	 |ex t2  | su 2       |	pr	       | -	        | t2         |
+| 16	 |--	   | su 2       |	ex linha 1 | -	        | t2         |
+
 
 ## Tarefa 2 - fatia tempo com valor 10 ticks
 
@@ -107,5 +114,9 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 12	 | ex t1 | 9	        | pr	       | -	        | t2         |
+| 11	 | ex t1 | su 2	      | su 1	     | ex linha 2	| --         |
+| 20	 | ex t1 | su 2	      | su 1	     | fi	        | --         |
+| 21	 | ex t2 | su 2	      | pr		     | --         | --         |
+| 30	 | ex t2 | su 2	      | ex linha 1 | --         | --         |
+
